@@ -1,0 +1,38 @@
+.submit{
+    text-align: center;
+    margin-top: 15px;
+}
+.submit input:hover{
+    background-color: darkred;
+}
+.input-class input{
+    padding: 6px;
+    border: none;
+    border-radius: 3px;
+}
+h1{
+    text-decoration: underline;
+    text-align: center;
+    text-decoration-color: red;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-weight: 500;
+}   
+label{
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 5px;
+    text-decoration: underline;
+}
+
+.submit input {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+}
+.input-class{
+    display: flex;
+    flex-direction: column;
+}

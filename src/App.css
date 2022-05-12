@@ -1,0 +1,94 @@
+.c{
+  /* border-right: 1px solid black;
+  border-left: 1px solid black; */
+  padding-left: 3%;
+  padding-right: 3%;
+  height: 100%;
+  padding-bottom: 2%;
+  /* position: fixed; */
+  background-image: linear-gradient(orange,salmon);
+  
+}
+.contacts-list{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    /* background-image: linear-gradient(rgb(216, 79, 79),rgb(94, 94, 212)); */
+    background-image: linear-gradient(rgb(233, 29, 29),white);
+    /* background-image: linear-gradient(orange,salmon); */
+}
+.contacts{
+    border: 1px solid red;
+    margin-top: 3%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: pink;
+}
+.delete-all{
+  background:red;
+  border-radius:3px;
+  border:none;
+  padding:7px;
+  margin-left:85%
+}
+.delete-all:hover{
+  background-color: brown;
+  cursor: pointer;
+}
+
+/* .contact{
+  display: flex;
+  width: 98%;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  justify-content: space-around;
+}
+.all-contacts{
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid red;
+  margin: auto;
+}
+.titles{
+  font-weight: bolder; 
+}
+.input{
+  padding-bottom: 2%;
+}
+.details{
+  overflow: hidden;
+}
+form{
+  display: flex;
+  padding: 1%;
+  width: 60%;
+  flex-direction: column;
+  border: 1px solid red;
+  align-items: center;
+  width: 40%;
+  margin: auto;
+}
+.submit{
+  text-align: center;
+  padding-top: 20px;
+}
+.params{
+  width: 98%;
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid red;
+  justify-content: space-around;
+}
+
+label{
+  font-weight: bolder;
+  padding: 5px;
+}
+img{
+  height: 20px;
+} */
